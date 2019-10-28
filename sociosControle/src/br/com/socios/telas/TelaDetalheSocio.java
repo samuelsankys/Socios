@@ -627,7 +627,7 @@ public class TelaDetalheSocio extends javax.swing.JFrame {
 		email.setFrom("ssankys3@gmail.com", "sam"); // remetente (o nome aparece no remetende do email.)
 		email.setSubject("Boleto de Doação"); // assunto do e-mail
 		email.setMsg("Segue Anexo Boleto de Doação.."); //conteudo do e-mail
-		email.setAuthentication("ssankys3@gmail.com", "samuelsk8");
+		email.setAuthentication("ssankys3@gmail.com", "Aqui se coloca a senha do email");
 		email.setSmtpPort(465);
 		email.setSSL(true);
 		email.setTLS(true);
